@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.opcoach.osgirmi.parcauto
+Bundle-SymbolicName: com.opcoach.osgirmi.parcauto;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Require-Bundle: org.eclipse.emf.ecore,
+ com.opcoach.osgirmi.basemodel;bundle-version="0.1.0"

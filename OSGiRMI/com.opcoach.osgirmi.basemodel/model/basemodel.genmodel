@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.opcoach.osgirmi.basemodel/src-gen" modelPluginID="com.opcoach.osgirmi.basemodel"
+    templateDirectory="/com.opcoach.osgirmi.basemodel/templates" dynamicTemplates="true"
+    modelName="Basemodel" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    interfaceNamePattern="M{0}" classNamePattern="M{0}Impl" operationReflection="true">
+  <foreignModel>basemodel.ecore</foreignModel>
+  <genPackages prefix="Basemodel" disposableProviderFactory="true" ecorePackage="basemodel.ecore#/">
+    <genClasses ecoreClass="basemodel.ecore#//BaseObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute basemodel.ecore#//BaseObject/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute basemodel.ecore#//BaseObject/lastUpdateDate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute basemodel.ecore#//BaseObject/name"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
