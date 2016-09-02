@@ -5,4 +5,4 @@ Bundle-SymbolicName: com.opcoach.osgirmi.parcauto;singleton:=true
 Bundle-Version: 0.1.0.qualifier
 Export-Package: com.opcoach.parcauto
 Require-Bundle: org.eclipse.emf.ecore,
- com.opcoach.osgirmi.basemodel;bundle-version="0.1.0"
+ com.opcoach.osgirmi.basemodel;bundle-version="0.1.0";visibility:=reexport

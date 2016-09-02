@@ -3,8 +3,9 @@
     xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.opcoach.osgirmi.basemodel/src-gen" modelPluginID="com.opcoach.osgirmi.basemodel"
     templateDirectory="/com.opcoach.osgirmi.basemodel/templates" dynamicTemplates="true"
     modelName="Basemodel" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    rootImplementsInterface="" featureMapWrapperInterface="" featureMapWrapperInternalInterface=""
     importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
-    interfaceNamePattern="M{0}" classNamePattern="M{0}Impl" operationReflection="true">
+    language="" interfaceNamePattern="M{0}" classNamePattern="M{0}Impl" operationReflection="true">
   <foreignModel>basemodel.ecore</foreignModel>
   <genPackages prefix="Basemodel" basePackage="com.opcoach" disposableProviderFactory="true"
       ecorePackage="basemodel.ecore#/">
