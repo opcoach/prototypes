@@ -7,4 +7,5 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastUpdateDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="RemoteException" instanceClassName="java.rmi.RemoteException"/>
 </ecore:EPackage>

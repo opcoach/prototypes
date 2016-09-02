@@ -3,6 +3,6 @@ Bundle-ManifestVersion: 2
 Bundle-Name: com.opcoach.osgirmi.basemodel
 Bundle-SymbolicName: com.opcoach.osgirmi.basemodel;singleton:=true
 Bundle-Version: 0.1.0.qualifier
+Export-Package: com.opcoach.basemodel,
+ com.opcoach.basemodel.impl
 Require-Bundle: org.eclipse.emf.ecore
-Export-Package: basemodel,
- basemodel.impl

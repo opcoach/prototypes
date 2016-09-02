@@ -7,10 +7,14 @@
     usedGenPackages="../../com.opcoach.osgirmi.basemodel/model/basemodel.genmodel#//basemodel"
     interfaceNamePattern="M{0}" classNamePattern="M{0}Impl" operationReflection="true">
   <foreignModel>parcauto.ecore</foreignModel>
-  <genPackages prefix="Parcauto" disposableProviderFactory="true" ecorePackage="parcauto.ecore#/">
+  <genPackages prefix="Parcauto" basePackage="com.opcoach" disposableProviderFactory="true"
+      ecorePackage="parcauto.ecore#/">
     <genClasses ecoreClass="parcauto.ecore#//ParcAuto">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference parcauto.ecore#//ParcAuto/voitures"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute parcauto.ecore#//ParcAuto/capacity"/>
+      <genOperations ecoreOperation="parcauto.ecore#//ParcAuto/calculerROI">
+        <genParameters ecoreParameter="parcauto.ecore#//ParcAuto/calculerROI/v"/>
+      </genOperations>
     </genClasses>
     <genClasses ecoreClass="parcauto.ecore#//Voiture">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute parcauto.ecore#//Voiture/Immatriculation"/>

@@ -5,14 +5,14 @@
          point="org.eclipse.emf.ecore.factory_override">
       <factory
             uri="http://com.opcoach.basemodel/1.0"
-            class="basemodel.impl.MBasemodelFactoryImpl">
+            class="com.opcoach.basemodel.impl.MBasemodelFactoryImpl">
       </factory>
    </extension>
    <extension
          point="org.eclipse.emf.ecore.generated_package">
       <package
             uri="http://com.opcoach.basemodel/1.0"
-            class="basemodel.MBasemodelPackage">
+            class="com.opcoach.basemodel.MBasemodelPackage">
       </package>
    </extension>
 

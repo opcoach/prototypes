@@ -6,7 +6,9 @@
     importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
     interfaceNamePattern="M{0}" classNamePattern="M{0}Impl" operationReflection="true">
   <foreignModel>basemodel.ecore</foreignModel>
-  <genPackages prefix="Basemodel" disposableProviderFactory="true" ecorePackage="basemodel.ecore#/">
+  <genPackages prefix="Basemodel" basePackage="com.opcoach" disposableProviderFactory="true"
+      ecorePackage="basemodel.ecore#/">
+    <genDataTypes ecoreDataType="basemodel.ecore#//RemoteException"/>
     <genClasses ecoreClass="basemodel.ecore#//BaseObject">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute basemodel.ecore#//BaseObject/id"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute basemodel.ecore#//BaseObject/lastUpdateDate"/>

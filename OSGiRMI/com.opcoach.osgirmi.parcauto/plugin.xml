@@ -5,14 +5,14 @@
          point="org.eclipse.emf.ecore.factory_override">
       <factory
             uri="http://com.opcoach.parcauto/1.0"
-            class="parcauto.impl.MParcautoFactoryImpl">
+            class="com.opcoach.parcauto.impl.MParcautoFactoryImpl">
       </factory>
    </extension>
    <extension
          point="org.eclipse.emf.ecore.generated_package">
       <package
             uri="http://com.opcoach.parcauto/1.0"
-            class="parcauto.MParcautoPackage">
+            class="com.opcoach.parcauto.MParcautoPackage">
       </package>
    </extension>
 
