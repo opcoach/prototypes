@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" enabled="true" name="com.opcoach.osgirmi.common.DataService">
+   <service>
+      <provide interface="com.opcoach.osgirmi.common.DataService"/>
+   </service>
+   <implementation class="com.opcoach.osgirmi.common.impl.SampleService"/>
+</scr:component>
